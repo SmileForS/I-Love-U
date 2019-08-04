@@ -1,0 +1,35 @@
+.content {
+  padding: 0 40rpx;
+  background-size:100% 100%;
+    -moz-background-size:100% 100%;
+}
+.content image {
+  width: 100%;
+}
+.content .title {
+  display: block;
+  text-align: center;
+  font-weight: bold;
+  font-size: 50rpx;
+  color: red;
+}
+.content .operate {
+  text-align: center;
+  margin-top: 30rpx;
+  margin-bottom: 30rpx;
+}
+.content .operate .btn {
+  width: 200rpx;
+  height: 100rpx;
+  display: inline-block;
+}
+.content .operate .btn:first-of-type {
+  margin-right: 40rpx;
+}
+.content .message {
+  font-size: 34rpx;
+  margin: 15rpx 0rpx;
+  color: orchid;
+}
+
+page::after{position:fixed;content:'';left:-1000px;top:-1000px;-webkit-animation:shadow-preload .1s;-webkit-animation-delay:3s;animation:shadow-preload .1s;animation-delay:3s}@-webkit-keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}@keyframes shadow-preload{0%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}100%{background-image:url(https://cdn.dcloud.net.cn/img/shadow-grey.png)}}
